@@ -1,0 +1,42 @@
+footer{
+    margin-top: 10px;
+    background-color: #D9D9D9;
+    bottom: 0;
+    grid-area: footer;
+    .parrafo_footer{
+        display: flex;
+       flex-direction: row; 
+       justify-content: center;
+      .text1{
+        .img_footer{
+        padding-left:35px;
+        }
+        font-size: larger;
+        padding-top: 5px;
+        margin: 10px;
+        width: 200px;
+       
+      }
+      .text2{
+        .img_footer2{
+            width: 150px;
+        }
+        font-size: larger;
+        margin: 10px;
+        margin-left: 20px;
+        width: 200px;
+      }
+    }
+    .listaredes{
+        grid-area: redes;
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        
+            li{
+                list-style: none;
+                margin: 5px;
+                
+            }
+    }
+}
