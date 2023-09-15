@@ -1,4 +1,23 @@
-.navbar {
-    background-color: #FFDBAA;
+.navbar{
+    background-color: rgba(192, 192, 192, 0.432);
     grid-area: header;
+    .btn-group{
+        border-style: solid;
+       border-radius: 10px;
+       border-color: black;
+       margin: 5px;
+       background-color: rgba(179, 176, 176, 0.627);
+       }
+    .nav-item{
+        border-style: solid;
+        border-radius: 10px;
+        border-color: black;
+        margin: 5px;
+        background-color: rgba(179, 176, 176, 0.627);
+        .nav-link{
+            font-size: large;
+            font-style:oblique;
+        }
+       
+    }
 }

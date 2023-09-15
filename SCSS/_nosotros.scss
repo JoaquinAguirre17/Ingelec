@@ -6,10 +6,12 @@
     display: grid;
     grid-area: main;
     grid-template-areas: 
-    
-    "titulo1 titulo2"
-    "nosotros1 nosotros2"
-    "footer footer"
+   
+    "titulo1 titulo1 titulo1"
+    "nosotros1 nosotros2 nosotros2"
+    "servicios1 servicios1 servicios1"
+    "texto1 texto2 texto3"
+    "footer footer footer"
     ;
     .titulo_nosotros{
         grid-area: titulo1;
@@ -17,20 +19,20 @@
         
         h1{
             text-decoration: underline;
-            color:#1A5D1A ;
+            
+            
         }
         p{
-            color:#1A5D1A ; 
-            font-size: larger; 
+            
+            font-size:xx-large; 
         }  
     }
     .texto1_nosotros{
         grid-area:nosotros1;
-        background-color: #FFDBAA;
+        background-color: white;
         margin: 10px;
         padding: 10px;
         border-radius: 10px;
-        border-color: black;
         border-style: solid;
         width: 300px;
         height: 400px;
@@ -39,14 +41,64 @@
     }
     .texto2_nosotros{
         grid-area:nosotros2 ;
-        background-color: #FFDBAA;
-        border-color: black;
-        border-style: solid;
+        background-color: white;
+        font-size:x-large;
         margin: 10px;
         padding: 10px;
         border-radius: 10px;
-        font-size:x-large;
+        border-style: solid;
+        
+        
+       
+    }
+    .servicios{
+        grid-area: servicios1;
+        padding: 10px;
+        h2{
+            text-decoration: underline;
+        }
+        p{
+            font-size:x-large; 
+        }
+    }
+    .text1{
+        grid-area: texto1;
+        justify-content: center;
         text-align: center;
+        padding: 10px;
+        margin: 10px;
+        font-size:large;
+        background-color: rgba(175, 171, 171, 0.649);
+        border-style: solid;
+        border-color: gray;
+        border-radius: 10px;
+    }
+    .text2{
+        grid-area: texto2;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        background-color: rgba(175, 171, 171, 0.649);
+        border-style: solid;
+        border-color: gray;
+        border-radius: 10px;
+        p{
+            font-size:large;
+        }
+        
+    }
+    .text3{
+        grid-area: texto3;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        font-size:large;
+        background-color: rgba(175, 171, 171, 0.649);
+        border-style: solid;
+        border-color: gray;
+        border-radius: 10px;
     }
 }
 

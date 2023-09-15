@@ -1,9 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    color: green;
 }
 body{
-    background-color: #FFEECC;
+    background-color: rgb(255, 255, 255);
     display: grid;
     grid-template-areas:  
     "header"

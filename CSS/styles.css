@@ -1,17 +1,36 @@
 * {
   margin: 0;
   padding: 0;
+  color: green;
 }
 
 body {
-  background-color: #FFEECC;
+  background-color: rgb(255, 255, 255);
   display: grid;
   grid-template-areas: "header" "main" "footer";
 }
 
 .navbar {
-  background-color: #FFDBAA;
+  background-color: rgba(192, 192, 192, 0.432);
   grid-area: header;
+}
+.navbar .btn-group {
+  border-style: solid;
+  border-radius: 10px;
+  border-color: black;
+  margin: 5px;
+  background-color: rgba(179, 176, 176, 0.627);
+}
+.navbar .nav-item {
+  border-style: solid;
+  border-radius: 10px;
+  border-color: black;
+  margin: 5px;
+  background-color: rgba(179, 176, 176, 0.627);
+}
+.navbar .nav-item .nav-link {
+  font-size: large;
+  font-style: oblique;
 }
 
 .imagen_inicio {
@@ -22,7 +41,7 @@ body {
 .main_nosotros {
   display: grid;
   grid-area: main;
-  grid-template-areas: "titulo1 titulo2" "nosotros1 nosotros2" "footer footer";
+  grid-template-areas: "titulo1 titulo1 titulo1" "nosotros1 nosotros2 nosotros2" "servicios1 servicios1 servicios1" "texto1 texto2 texto3" "footer footer footer";
 }
 .main_nosotros .titulo_nosotros {
   grid-area: titulo1;
@@ -30,19 +49,16 @@ body {
 }
 .main_nosotros .titulo_nosotros h1 {
   text-decoration: underline;
-  color: #1A5D1A;
 }
 .main_nosotros .titulo_nosotros p {
-  color: #1A5D1A;
-  font-size: larger;
+  font-size: xx-large;
 }
 .main_nosotros .texto1_nosotros {
   grid-area: nosotros1;
-  background-color: #FFDBAA;
+  background-color: white;
   margin: 10px;
   padding: 10px;
   border-radius: 10px;
-  border-color: black;
   border-style: solid;
   width: 300px;
   height: 400px;
@@ -51,14 +67,116 @@ body {
 }
 .main_nosotros .texto2_nosotros {
   grid-area: nosotros2;
-  background-color: #FFDBAA;
-  border-color: black;
-  border-style: solid;
+  background-color: white;
+  font-size: x-large;
   margin: 10px;
   padding: 10px;
   border-radius: 10px;
+  border-style: solid;
+}
+.main_nosotros .servicios {
+  grid-area: servicios1;
+  padding: 10px;
+}
+.main_nosotros .servicios h2 {
+  text-decoration: underline;
+}
+.main_nosotros .servicios p {
   font-size: x-large;
+}
+.main_nosotros .text1 {
+  grid-area: texto1;
+  justify-content: center;
   text-align: center;
+  padding: 10px;
+  margin: 10px;
+  font-size: large;
+  background-color: rgba(175, 171, 171, 0.649);
+  border-style: solid;
+  border-color: gray;
+  border-radius: 10px;
+}
+.main_nosotros .text2 {
+  grid-area: texto2;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgba(175, 171, 171, 0.649);
+  border-style: solid;
+  border-color: gray;
+  border-radius: 10px;
+}
+.main_nosotros .text2 p {
+  font-size: large;
+}
+.main_nosotros .text3 {
+  grid-area: texto3;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  font-size: large;
+  background-color: rgba(175, 171, 171, 0.649);
+  border-style: solid;
+  border-color: gray;
+  border-radius: 10px;
+}
+
+.main_productos {
+  margin: 20px;
+}
+.main_productos .cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main_productos .cards .card {
+  margin: 10px;
+}
+.main_productos .cards .card img {
+  height: 300px;
+}
+
+.main_obras {
+  margin: 10px;
+}
+.main_obras .cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main_obras .cards .card {
+  margin: 10px;
+}
+.main_obras .cards .card img {
+  height: 300px;
+}
+
+.main_cajas {
+  margin: 10px;
+}
+.main_cajas .cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main_cajas .cards .card {
+  margin: 10px;
+}
+.main_cajas .cards .card img {
+  height: 300px;
+}
+
+.main_cables {
+  margin: 10px;
+}
+.main_cables .cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main_cables .cards .card {
+  margin: 10px;
+}
+.main_cables .cards .card img {
+  height: 300px;
 }
 
 footer {
