@@ -18,49 +18,80 @@
 
 <body>
 <!------------------------------------------------------------------------------>
-<header>  
-  <nav class="navbar navbar-expand-lg ">
-    <div class="container-fluid ">
-      <!--LOGO DE BARRA DE NAVEGACION-->
-      <a class="navbar-brand  " href="#">
-        <img src="./IMG/img_logo.png" alt="Ingelec" width="200" height="80">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <header>  
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid ">
+        <!--LOGO DE BARRA DE NAVEGACION-->
+        <a class="navbar-brand  " href="#">
+          <img src="../IMG/img_logo.png" alt="Ingelec" width="200" height="80">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav ">
+                  <!-- Example split danger button -->
+                  <div class="btn-group">
+                    <a href="./productos.html" class="btn ">Productos</a>
+                    <button type="button" class="btn   dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./cajas.html">Caja</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./cables.html">Cables</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./tomas.html">Tomas</a></li>
+                      
+                      
+                    </ul>
+                  </div>
+                    <li class="nav-item">
+                        <a class="nav-link "  href="../index.html">Inicio</a>
+                    </li> 
+                    <li class="nav-item">
+                      <a class="nav-link " href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+          </div> 
       
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-              <ul class="navbar-nav ">
-                <!-- Example split danger button -->
-                <div class="btn-group">
-                  <a href="./productos.html" class="btn ">Productos</a>
-                  <button type="button" class="btn   dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
-                    <span class="visually-hidden">Toggle Dropdown</span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="./cajas.html">Caja</a></li>
-                    <li><a class="dropdown-item" href="./cables.html">Cables</a></li>
-                    <li><a class="dropdown-item" href="./tomas.html">Tomas</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="../index.html">Inicio</a></li>
-                  </ul>
-                </div>
-                  <li class="nav-item">
-                      <a class="nav-link "  href="../index.html">Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./energia_solar.html">Energia Solar</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link " href="./obras.html">Obras</a>
-                  </li>
-                 
-                  <li class="nav-item">
-                    <a class="nav-link " href="./contacto.html">Contacto</a>
-                  </li>
-              </ul>
-        </div> 
-    
-    </div>
-  </nav>
-</header>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main_tomas">
+    <div class="container">
+      <div>
+        <h1>TOMAS</h1>
+      </div>
+      <div class="cards">
+        <div class="card" style="width: 18rem;">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_hwfm2Dhsv5OYiQwY2nAKx7oEnGDRtNh3Mw&usqp=CAU" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Producto1</h5>
+            <p class="card-text">$5000</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+            <a href="#" class="btn btn-primary">Consultas</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src='https://i.ebayimg.com/thumbs/images/g/1lAAAOSwm49kOwhx/s-l640.jpg' class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Producto1</h5>
+            <p class="card-text">$5000</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+            <a href="#" class="btn btn-primary">Consultas</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="https://media.istockphoto.com/id/1305850594/es/vector/diferentes-tipos-de-tomas-de-corriente-de-ca-para-conectar-equipos-el%C3%A9ctricos.jpg?s=1024x1024&w=is&k=20&c=Kpy7JskNx7oNp7rd8hGbFLTQk49H6bK0kXzxqrjIRXs=" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Producto1</h5>
+            <p class="card-text">$5000</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+            <a href="#" class="btn btn-primary">Consultas</a>
+          </div>
+        </div>
+  </main>
+</body>
