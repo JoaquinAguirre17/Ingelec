@@ -53,13 +53,15 @@ function agregarAlCarrito(producto) {
         </tr>
     `;
     //calcular el total gastado hasta el momento
-    
+   
     total.innerHTML += `
         <tr>
-            <td>${producto.precio }</td>
+            <td>${producto.precio}</td>
         </tr>
     `;
 
 }
+
+
 
 
