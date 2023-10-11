@@ -1,17 +1,28 @@
-* {
+body {
   margin: 0;
   padding: 0;
-  color: green;
-}
-
-body {
+  color: rgb(255, 255, 255);
   background-color: #FFE7CE;
   display: grid;
   grid-template-areas: "header" "main" "footer";
+  min-height: auto;
+  background-image: url(../IMG/FONDO7.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+}
+body .container {
+  background-color: rgba(0, 0, 0, 0.705);
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 0;
 }
 
 .navbar {
-  background-color: #001C30;
+  background-color: rgba(0, 0, 0, 0.827);
   grid-area: header;
 }
 .navbar .navbar-brand {
@@ -42,16 +53,19 @@ body {
 .imagen_inicio {
   width: 100%;
   height: 500px;
+  border-radius: 10px;
 }
 
 .main_nosotros {
   display: grid;
+  justify-content: center;
   grid-area: main;
   grid-template-areas: "titulo1 titulo1 titulo1" "nosotros1 nosotros2 nosotros2" "servicios1 servicios1 servicios1" "texto1 texto2 texto3" "footer footer footer";
 }
 .main_nosotros .titulo_nosotros {
+  color: #EE9322;
   grid-area: titulo1;
-  padding: 10px;
+  padding: 25px;
 }
 .main_nosotros .titulo_nosotros h1 {
   text-decoration: underline;
@@ -60,29 +74,33 @@ body {
   font-size: xx-large;
 }
 .main_nosotros .texto1_nosotros {
+  color: white;
   grid-area: nosotros1;
-  background-color: white;
+  background-color: rgba(7, 7, 7, 0.726);
   margin: 10px;
   padding: 10px;
   border-radius: 10px;
+  border-color: #219C90;
   border-style: solid;
-  width: 300px;
   height: 400px;
   font-size: xx-large;
   text-align: center;
 }
 .main_nosotros .texto2_nosotros {
   grid-area: nosotros2;
-  background-color: white;
+  background-color: rgba(7, 7, 7, 0.726);
   font-size: x-large;
   margin: 10px;
   padding: 10px;
   border-radius: 10px;
+  border-color: #219C90;
   border-style: solid;
+  justify-items: start;
 }
 .main_nosotros .servicios {
   grid-area: servicios1;
-  padding: 10px;
+  padding: 25px;
+  color: #E9B824;
 }
 .main_nosotros .servicios h2 {
   text-decoration: underline;
@@ -97,7 +115,7 @@ body {
   padding: 10px;
   margin: 10px;
   font-size: large;
-  background-color: rgba(175, 171, 171, 0.649);
+  background-color: rgba(7, 7, 7, 0.726);
   border-style: solid;
   border-color: gray;
   border-radius: 10px;
@@ -108,7 +126,7 @@ body {
   text-align: center;
   padding: 10px;
   margin: 10px;
-  background-color: rgba(175, 171, 171, 0.649);
+  background-color: rgba(7, 7, 7, 0.726);
   border-style: solid;
   border-color: gray;
   border-radius: 10px;
@@ -123,7 +141,7 @@ body {
   padding: 10px;
   margin: 10px;
   font-size: large;
-  background-color: rgba(175, 171, 171, 0.649);
+  background-color: rgba(7, 7, 7, 0.726);
   border-style: solid;
   border-color: gray;
   border-radius: 10px;
@@ -204,7 +222,7 @@ body {
 
 footer {
   margin-top: 10px;
-  background-color: #D9D9D9;
+  background-color: #080808;
   bottom: 0;
   grid-area: footer;
 }

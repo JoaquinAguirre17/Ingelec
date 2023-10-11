@@ -1,15 +1,27 @@
-*{
+
+body{
     margin: 0;
     padding: 0;
-    color: green;
-}
-body{
+    color: rgb(255, 255, 255);
     background-color:#FFE7CE;
     display: grid;
     grid-template-areas:  
     "header"
     "main"
-    "footer"
-    ;
+    "footer";
+    min-height: auto;
+    background-image: url(../IMG/FONDO7.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    height: 100%;
+    width: 100%;
+    .container{
+        background-color: rgba(0, 0, 0, 0.705);
+        border-radius: 10px;
+        margin-top:10px;
+        padding: 0;
+    }
 
 }
