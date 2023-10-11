@@ -260,4 +260,44 @@ footer .listaredes li {
   margin: 5px;
 }
 
+@media (min-width: 480px) and (max-width: 991px) {
+  .nav-item {
+    border-radius: 5px;
+    border-style: solid;
+    margin: 5px;
+    border-color: rgba(102, 102, 102, 0.832);
+    width: 100px;
+    text-align: center;
+  }
+}
+@media (min-width: 320px) and (max-width: 790px) {
+  body {
+    grid-template-areas: "header" "main" "footer";
+    background-image: url(../IMG/FONDO7.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  /*---------------------RESPONSIVE HEADER-------------------------------*/
+  .nav-item {
+    /*background-color: rgba(243, 158, 79, 0.808);*/
+    border-radius: 5px;
+    border-style: solid;
+    margin: 5px;
+    border-color: rgba(102, 102, 102, 0.832);
+    width: 100px;
+    text-align: center;
+  }
+  .main_nosotros {
+    display: grid;
+    justify-content: center;
+    grid-area: main;
+    grid-template-areas: "titulo1" "nosotros1" "nosotros2" "servicios1" "texto1" "texto2" "texto3" "footer";
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

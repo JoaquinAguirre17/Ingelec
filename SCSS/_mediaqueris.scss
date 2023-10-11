@@ -8,8 +8,9 @@
         width: 100px;
         text-align: center;
     }
+ 
 }
-@media  (min-width: 320px) and (max-width: 480px) {
+@media  (min-width: 320px) and (max-width: 790px) {
     body{
        grid-template-areas:  
        "header"
@@ -39,13 +40,14 @@
         justify-content: center;
         grid-area: main;
         grid-template-areas:    
-        "titulo1 "
+        "titulo1"
         "nosotros1" 
-        "nosotros2 "
-        "servicios1 "
+        "nosotros2"
+        "servicios1"
         "texto1"
         "texto2"
         "texto3"
         "footer";
     }
 }
+
