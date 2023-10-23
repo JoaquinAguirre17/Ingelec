@@ -1,0 +1,28 @@
+.energia_solar{
+    h1{
+        margin: 25px;
+        color: #EE9322;
+    }
+    h3{
+        margin: 10px;
+        text-align: center;
+        color: #EE9322;
+        
+    }
+    p{
+        margin: 20px;
+        padding: 5px;
+        text-align:start;
+    }
+    .imagenes_paneles{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        img{
+            width: 300px;
+            margin: 10px;
+            border-radius: 50px;
+            
+        }
+    }
+}
